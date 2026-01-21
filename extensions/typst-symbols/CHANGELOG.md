@@ -1,3 +1,3 @@
 # Typst Symbols Changelog
 
-## [Update] - {PR_MERGE_DATE}
+## [Initial Version] - Jan-2026
