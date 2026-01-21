@@ -68,7 +68,7 @@ const searchItems = (query: string): Item[] => {
     }
 
     // Check command matches
-    if (cmdLower === q || item.title === query) {
+    if (cmdLower === q || item.title.toLowerCase() === q) {
       exactMatches.push(item);
     } else if (cmdLower.startsWith(q)) {
       prefixMatches.push(item);
